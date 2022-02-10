@@ -12,6 +12,8 @@ export const NavbarWrapper = styled("div", {
   display: "flex",
   justifyContent: "flex-end",
   alignItems: "center",
+  padding: "5px",
+
   //   "& >div": {
   //     width: "50%",
   //     backgroundColor: "white",
@@ -26,22 +28,25 @@ export const SidebarWrapper = styled("div", {
   boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px",
 });
 export const TabsWrapper = styled("div", {
-  height: "100%",
-  width: "50%",
   display: "flex",
   borderRadius: "5px",
-  background: "orangered",
+  //border: `1px solid ${orange.orange11}`,
+  marginRight: "50px",
+  overflow: "hidden",
+  //padding: "5px 10px",
+  boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",
 });
 export const Tab = styled("button", {
-  padding: "10px",
-  width: "100%",
+  display: "flex",
+  flexDirection: "column",
+  //padding: "10px",
+  minWidth: "80px",
   border: 0,
   fontSize: "13px",
   color: orange.orange9,
-  display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  background: "white",
+  // background: "white",
   cursor: "pointer",
   "& svg": {
     height: "25px",
